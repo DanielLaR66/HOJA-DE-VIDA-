@@ -4,212 +4,232 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MI HOJA DE VIDA</title>
-  </head>
 
-  <body>
+</head>
+
+<body>
+<main>
     <header>
-      <h1>Daniel Esteban Ramirez Barco</h1>
+<div>
+        <h1>Daniel Esteban Ramirez Barco</h1>
 
-      <h2>INGENIERÍA EN SISTEMAS</h2>
+        <h2>INGENIERÍA EN SISTEMAS</h2>
+<section class="section" id="informacion">
+        <img src="img/mi_foto.jpeg" 
+             alt="Fotografía de Daniel Ramirez" 
+             width="200">
+</div>
+</section>
+        <hr>
 
-      <img
-        src="img/mi_foto.jpeg"
-        alt="Fotografía de Daniel Ramirez"
-        width="200"
-      />
-    </header>
-
-    <hr />
-
-    <main>
-      <section class="seccion" id="perfil">
-        <div>
-          <h2>Perfil profesional</h2>
-
-          <p>
+        <h2>Perfil profesional</h2>
+ <section class="section" id="perfil">
+        <p>
             Ingeniero de Sistemas y Especialista en Construcción de Software,
-            con experiencia en desarrollo de aplicaciones web, mantenimiento de
-            sistemas de información y construcción de soluciones de software.
-          </p>
+            con experiencia en desarrollo de aplicaciones web, mantenimiento
+            de sistemas de información y construcción de soluciones de software.
+        </p>
 
-          <p>
+        <p>
             Interesado en el desarrollo de software, tecnologías web,
             arquitectura de aplicaciones y ciberseguridad.
-          </p>
-        </div>
-      </section>
+        </p>
+</section>
+        <hr>
 
-      <hr />
+        <h2>Información de contacto</h2>
+<section class="section" id="contacto">
+        <p>CORREO:<a href="mailto: daniuniramirez@gmail.com">daniuniramirez@gmail.com</a></p>
+        <p>TELEFONO:<a href="tel: +57 302 257 1755">302 257 1755 </a></p>
+        <p>CIUDAD, PAÍS: PASTO, NARIÑO, COLOMBIA</p>
 
-      <section class="seccion" id="contacto">
-        <div>
-          <h2>Información de contacto</h2>
+        <h3>Enviame un mensaje</h3>
+        <form action="">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
 
-          <p>CORREO: daniuniramirez@gmail.com</p>
+            <label for="correo">Correo: </label>
+            <input type="email" id="correo" name="correo" placeholder="Ejemplo@correo.com" required>
 
-          <p>TELEFONO: 3022571755</p>
+            <label for="telefono">Telefono: </label>
+            <input type="tel" id="telefono" name="telefono" placeholder="300 000 0000">
 
-          <p>CIUDAD, PAÍS: PASTO, NARIÑO, COLOMBIA</p>
-        </div>
-      </section>
+            <label for="mensaje">Escribe tu mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
 
-      <hr />
+            <button type="submit">Enviar</button>
+            
 
-      <section class="seccion" id="educacion">
-        <div>
-          <h2>Educación</h2>
+        </form>
+</section>
+        <hr>
 
-          <article class="educacion">
-            <h3>Ingeniería de Sistemas</h3>
 
-            <p>Universidad - Pasto, Nariño</p>
+        <h2>Educación</h2>
+<section class="section" id="educacion">
+<article class="educacion">
+        <h3>Ingeniería de Sistemas</h3>
+</article>
+<article class="educacion">
+        <p>
+            Universidad - Pasto, Nariño
+        </p>
+</article>
+        <p>
+            Formación enfocada en programación, desarrollo de software,
+            bases de datos, redes y tecnologías de la información.
+        </p>
 
-            <p>
-              Formación enfocada en programación, desarrollo de software, bases
-              de datos, redes y tecnologías de la información.
-            </p>
-          </article>
+        <h3>Especialización en Construcción de Software</h3>
 
-          <article class="educacion">
-            <h3>Especialización en Construcción de Software</h3>
+        <p>
+            Formación complementaria enfocada en el diseño,
+            desarrollo y mantenimiento de aplicaciones de software.
+        </p>
+</section>
+        <hr>
 
-            <p>
-              Formación complementaria enfocada en el diseño, desarrollo y
-              mantenimiento de aplicaciones de software.
-            </p>
-          </article>
-        </div>
-      </section>
+        <h2>Experiencia profesional</h2>
+<section class="seccion" id="experiencia">
+    <article class="experiencia">
+<table>
+<thead>
+    <tr>
+        <th>Cargos</th>
+        <th>Organización</th>
+        <th>Periodo</th>
+    </tr>
 
-      <hr />
+</thead>
+<tbody>
+    <tr>
+        <td>Docente tiempo completo</td>
+        <td>Uinversidad Cesmag</td>
+        <td>2026</td>
+    </tr>
+    <tr>
+        <td>Desarrolador de software</td>
+        <td>Universidad de Nariño</td>
+        <td>2022-2026</td>
+    </tr>
+    <tr>
+        <td>Ingeniero de Soporte</td>
+        <td>Banco BBVA</td>
+        <td>2026-Actual</td>
+    </tr>
+</tbody>
+</table>
+        <h3>Desarrollador de Software Junior</h3>
+</article>
+<article class="experiencia">
+        <p>
+            Empresa de Tecnología - Pasto, Nariño
+        </p>
+</article>
+<article class="experiencia">
+        <ul>
+            <li>Desarrollo de páginas y aplicaciones web.</li>
+            <li>Mantenimiento de sistemas de información.</li>
+            <li>Creación y manejo de bases de datos.</li>
+            <li>Solución de problemas relacionados con software.</li>
+        </ul>
+</article>
+<article class="experiencia">
+        <h3>Soporte Técnico</h3>
 
-      <section class="seccion" id="experiencia">
-        <div>
-          <h2>Experiencia profesional</h2>
+        <p>
+            Apoyo en mantenimiento de computadores, instalación de programas
+            y solución de problemas tecnológicos.
+        </p>
+</article>
+</section>
+        <hr>
 
-          <article class="experiencia">
-            <h3>Desarrollador de Software Junior</h3>
+        <h2> Habilidades</h2>
+<section class="seccion" id="habilidades">
+        <ul>
+            <li> HTML y CSS</li>
+            <li> Java</li>
+            <li> Bases de datos y SQL</li>
+            <li> Desarrollo web</li>
+            <li> Git y GitHub</li>
+            <li> Conceptos básicos de ciberseguridad</li>
+            <li> Trabajo en equipo</li>
+            <li> Resolución de problemas</li>
+        </ul>
+</section>
+        <hr>
 
-            <p>Empresa de Tecnología - Pasto, Nariño</p>
 
-            <ul>
-              <li>Desarrollo de páginas y aplicaciones web.</li>
-              <li>Mantenimiento de sistemas de información.</li>
-              <li>Creación y manejo de bases de datos.</li>
-              <li>Solución de problemas relacionados con software.</li>
-            </ul>
-          </article>
+        <h2>Proyectos</h2>
+<section class="seccion" id="proyectos">
+        <h3>App para organizar eventos estudiantiles</h3>
 
-          <article class="experiencia">
-            <h3>Soporte Técnico</h3>
+        <p>
+            Proyecto enfocado en desarrollar una aplicación que permita
+            organizar, publicar y consultar eventos y actividades
+            estudiantiles de manera sencilla.
+        </p>
 
-            <p>
-              Apoyo en mantenimiento de computadores, instalación de programas y
-              solución de problemas tecnológicos.
-            </p>
-          </article>
-        </div>
-      </section>
+        <h3>Página web - Hoja de Vida</h3>
 
-      <hr />
+        <p>
+            Desarrollo de una página web personal utilizando HTML,
+            donde se presenta información profesional, habilidades,
+            proyectos y pasatiempos.
+        </p>
 
-      <section class="seccion" id="habilidades">
-        <div>
-          <h2>Habilidades</h2>
+        <h3>Sistema de Gestión de Datos</h3>
 
-          <ul>
-            <li>HTML y CSS</li>
-            <li>Java</li>
-            <li>Bases de datos y SQL</li>
-            <li>Desarrollo web</li>
-            <li>Git y GitHub</li>
-            <li>Conceptos básicos de ciberseguridad</li>
-            <li>Trabajo en equipo</li>
-            <li>Resolución de problemas</li>
-          </ul>
-        </div>
-      </section>
+        <p>
+            Proyecto académico relacionado con el diseño de bases de datos,
+            creación de tablas y consultas utilizando SQL.
+        </p>
+</section>
+        <hr>
 
-      <hr />
+        <h2>MIS REDES SOCIALES</h2>
+<section class="seccion" id="redessociales">
+        <ol>
 
-      <section class="seccion" id="proyectos">
-        <div>
-          <h2>Proyectos</h2>
-
-          <article class="proyectos">
-            <h3>App para organizar eventos estudiantiles</h3>
-
-            <p>
-              Proyecto enfocado en desarrollar una aplicación que permita
-              organizar, publicar y consultar eventos y actividades
-              estudiantiles de manera sencilla.
-            </p>
-          </article>
-
-          <article class="proyectos">
-            <h3>Página web - Hoja de Vida</h3>
-
-            <p>
-              Desarrollo de una página web personal utilizando HTML, donde se
-              presenta información profesional, habilidades, proyectos y
-              pasatiempos.
-            </p>
-          </article>
-
-          <article class="proyectos">
-            <h3>Sistema de Gestión de Datos</h3>
-
-            <p>
-              Proyecto académico relacionado con el diseño de bases de datos,
-              creación de tablas y consultas utilizando SQL.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <hr />
-
-      <section class="seccion" id="redes sociales">
-        <div>
-          <h2>MIS REDES SOCIALES</h2>
-
-          <ol>
             <li>
-              <a href="https://www.instagram.com/dani_estebanr09/">
-                Instagram
-              </a>
+                <a href="https://www.instagram.com/dani_estebanr09/" target="_blank">
+                    Instagram
+                </a>
             </li>
 
             <li>
-              <a
-                href="https://www.facebook.com/daniel.ramirex.731?locale=es_LA"
-              >
-                Facebook
-              </a>
+                <a href="https://www.facebook.com/daniel.ramirex.731?locale=es_LA" target="_blank">
+                    Facebook
+                </a>
             </li>
 
             <li>
-              <a href="https://www.youtube.com/@DanielRa7"> YouTube </a>
+                <a href="https://www.youtube.com/@DanielRa7" target="_blank">
+                    YouTube
+                </a>
             </li>
-          </ol>
-        </div>
-      </section>
 
-      <hr />
-
-      <section class="seccion" id="pasatiempos">
-        <div>
-          <h2>
+        </ol>
+</section>
+        <hr>
+<section class="seccion" id="pasatiempos">
+        <h2>
             <a href="pasatiempos.html">
-              DALE CLICK AQUÍ PARA CONOCER MIS PASATIEMPOS FAVORITOS :D
+                DALE CLICK AQUÍ PARA CONOCER MIS PASATIEMPOS FAVORITOS :D
             </a>
-          </h2>
-        </div>
-      </section>
-    </main>
-    <hr />
-    <footer>
-      <p>Hoja de vida - Daniel Esteban Ramirez Barco | 2026 ®</p>
+        </h2>
+</section>
+</main>
+
+    </header>
+    <!-- Pie de página -->
+    <footer class="footer" id="pie-pagina">
+
+        <p>
+            Daniel Esteban Ramirez Barco - Ingeniería de Sistemas
+        </p>
+
     </footer>
-  </body>
-</html>
+
+    <hr />
