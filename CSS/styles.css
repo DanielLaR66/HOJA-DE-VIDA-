@@ -7,15 +7,52 @@ body {
 }
 
 h1 {
-    color: #1f2937;
+    color: white;
     font-size: 40px;
-    
+}
+h2{
+    color: #d1d5db;
+    font-size: 40px;
+ }
+
+ h3{
+        color: #1f2937;
+    font-size: 40px;
+}
+
+p{
+    line-height: 1.6;
 }
 
 .seccion {
-    background-color: rgb(132, 207, 138);
+    background-color: rgb(241, 15, 15);
+}
+.seccion {
+background-color: #375fa0;
 }
 
 #perfil {
     background-color: #375fa0;
+}
+
+
+
+header{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+}
+header h2{
+    color: #d1d5db;
+    font-size: 40px;
+ }
+
+ header h3{
+        color: #1f2937;
+    font-size: 40px;
 }
